@@ -1,0 +1,23 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+.reveal h4 {
+  font-family: "Microsoft Yahei"; }
+
+.reveal p {
+  font-size: 1.2rem; }
+
+.reveal img {
+  width: 80%;
+  height: 80%; }
+
+.reveal ul {
+  font-size: 1rem; }
+
+.reveal pre {
+  margin-top: 3rem; }
+
+.reveal pre code {
+  padding-bottom: 2rem; }
