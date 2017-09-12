@@ -1,0 +1,53 @@
+.reveal h4 {
+    font-family: "Microsoft Yahei";
+}
+
+/* markdown 粗体 */
+.reveal p {
+    font-size: 1.2rem;
+}
+
+/* 图片 */
+.reveal img {
+    width: 80%;
+    height: 80%;
+}
+
+.reveal ul {
+    font-size: 1rem;
+}
+
+/* 代码块 */
+.reveal pre {
+    margin-top: 3rem;
+}
+.reveal pre code {
+    padding-bottom: 2rem;
+}
+
+/* local install */
+
+.reveal .install h4 {
+    text-align: left;
+    text-transform: initial;
+}
+
+.reveal .install ul {
+    width: 100%;
+}
+
+.reveal .install p {
+    text-align: left;
+}
+
+.reveal .install pre {
+    margin-left: 0;
+}
+
+.reveal .install.pre pre {
+    margin-top: 0;
+}
+
+.reveal .install.pre ul:nth-child(4) li p {
+    margin-top: 0;
+}

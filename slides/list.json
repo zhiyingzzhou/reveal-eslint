@@ -11,7 +11,15 @@
         "why/table.html"
     ],
     [
-        "paractices/index.html"
+        "paractices/index.html",
+        "paractices/local_install.md",
+        "paractices/global_install.md",
+        "paractices/configure.md",
+        "paractices/vscode.md",
+        "paractices/vscode1.md",
+        "paractices/git.md",
+        "paractices/git1.md",
+        "paractices/git2.md"
     ],
     [
         "rules/stylistic/index.html",
@@ -53,5 +61,5 @@
         "rules/practices/default-case.md",
         "rules/practices/dot-notation.md"
     ],
-    "doc.html"
+    "refrence.md"
 ]

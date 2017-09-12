@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
     
         <link rel="stylesheet" href="bower_components/reveal.js/css/theme/league.css" id="theme">
-        <link rel="stylesheet" href="css/theme.css" id="theme">
+        <link rel="stylesheet" href="css/style.css" id="style">
 
         <!-- For syntax highlighting -->
         <link rel="stylesheet" href="bower_components/highlightjs/styles/zenburn.css">
@@ -101,6 +101,46 @@
                             
                                 
     <section data-html="slides/paractices/index.html"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/paractices/local_install.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/paractices/global_install.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/paractices/configure.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/paractices/vscode.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/paractices/vscode1.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/paractices/git.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/paractices/git1.md"></section>
+
+
+                            
+                                
+    <section data-markdown="slides/paractices/git2.md"></section>
 
 
                             
@@ -306,7 +346,7 @@
                 
                     
                         
-    <section data-html="slides/doc.html"></section>
+    <section data-markdown="slides/refrence.md"></section>
 
 
                     
@@ -355,6 +395,7 @@
             };
             var lgElement = null;
             Reveal.addEventListener( 'slidechanged', function( event ) {
+                const currentSlide = event.currentSlide;
                 // event.previousSlide, event.currentSlide, event.indexh, event.indexv
                 const currentState = Reveal.getState();
                 if(currentState.indexh === 2 && currentState.indexv === 1){
@@ -371,6 +412,11 @@
                     document.removeEventListener('keydown',_.handlerListener);
                     lgElement.removeEventListener('onAfterOpen',_.onAfterOpen);
                     lgElement.removeEventListener('onCloseAfter',_.onCloseAfter);
+                }else if(currentState.indexh === 4 || currentState.indexh === 5 || currentState.indexh === 6) {
+                    currentSlide.classList.add('install');
+                    if(currentState.indexv === 3) {
+                        currentSlide.classList.add('pre');
+                    }
                 }
             });
 
@@ -394,7 +440,7 @@
               { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true },
               { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
             ]
-          });
+          }); 
 
         </script>
     </body>

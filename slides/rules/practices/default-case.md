@@ -1,4 +1,4 @@
-#### 1.0 要求 Switch 语句中有 Default 分支
+#### 4.5 要求 Switch 语句中有 Default 分支
 ```javascript
 
 // bad

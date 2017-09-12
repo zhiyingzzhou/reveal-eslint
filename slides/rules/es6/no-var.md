@@ -1,4 +1,4 @@
-#### 1.0 要求使用 let 或 const 而不是 var
+#### 4.0 要求使用 let 或 const 而不是 var
 ```javascript
 
 // bad

@@ -21,3 +21,10 @@
 
 .reveal pre code {
   padding-bottom: 2rem; }
+
+.reveal .localinstall h4 {
+  text-align: left;
+  text-transform: initial; }
+
+.reveal .localinstall pre {
+  margin-left: 0; }
